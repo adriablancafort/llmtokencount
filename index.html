@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LLM Token Counter</title>
+    <title>LLM Token Count</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
 </head>
 <body>
     <h1>LLM Token Counter</h1>
-    <p>Simply paste your text into the box below to calculate the exact token count for large language models like GPT-3.5, GPT-4, and other LLMs. Optimizing your language model usage has never been easier.</p>
+    <p>Paste any text below to calculate the number of Large Language Model (LLM) tokens it has.</p>
     <textarea name="text" rows="10" cols="100" id="text-box" onkeyup="updateCount()" onchange="updateCount()"></textarea>
     <p>Word Count: <span id="word-count">0</span></p>
     <p>Character Count: <span id="character-count">0</span></p>
     <p>Token Count: <span id="token-count">0</span></p>
-    <p>*Disclaimer: This tool estimates tokens assuming 1 token ~= 4 characters on average. For precise token counts, please consult your language model's documentation.</p>
+    <p>*Disclaimer: The estimation assumes 1 token ~= 4 characters on average. For precise token counts, please consult your language model's documentation.</p>
 </body>
 </html>
