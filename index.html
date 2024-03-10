@@ -13,9 +13,11 @@
         <h1 class="title">LLM Token Counter</h1>
         <p>Paste any text below to calculate the number of Large Language Model (LLM) tokens it has.</p>
         <textarea name="text" rows="10" cols="100" id="text-box" onkeyup="updateCount()" onchange="updateCount()"></textarea>
-        <p>Word Count: <span id="word-count">0</span></p>
-        <p>Character Count: <span id="character-count">0</span></p>
-        <p>Token Count: <span id="token-count">0</span></p>
+        <span class="results">
+            <p>Word Count: <span id="word-count">0</span></p>
+            <p>Character Count: <span id="character-count">0</span></p>
+            <p>Token Count: <span id="token-count">0</span></p>
+        </span>
         <p>*Disclaimer: The estimation assumes 1 token ~= 4 characters on average. For precise token counts, please consult your language model's documentation.</p>
     </div>
     <div class="banner"></div>
